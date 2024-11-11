@@ -1,0 +1,6 @@
+width= round(float(input("What is the width of your room?")))
+print(f"The width of you room is {width}m.")
+height= round(float(input("What is the height of your room?")))
+print(f"The height of your room is {height}m.")
+area=int(width)*int(height)
+print(f"The area of your room is {area}sq.m.")

@@ -1,0 +1,5 @@
+length=input("What is the length of the field?")
+width=input("What is the width of the field?")
+area=int(length)*int(width)
+area_in_acre=round(area/43650,2)
+print(f"The area of your field is {area_in_acre} acres.")
